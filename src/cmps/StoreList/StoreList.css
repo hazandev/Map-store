@@ -1,0 +1,42 @@
+.store-list{
+    width: 30%;
+    height: 82vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.store-list h4{
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 2px solid rgb(125, 146, 108);
+}
+
+.store-list ul{
+    width: 100%;
+    margin-block-start: 0;
+    overflow-y: auto;
+}
+
+.store-list li:hover{
+    background: rgb(179, 218, 162);
+}
+
+
+
+
+.store-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid rgb(125, 146, 108);
+}
+
+
+.store-item p{
+    padding: 0;
+    margin: 4px 0;
+}

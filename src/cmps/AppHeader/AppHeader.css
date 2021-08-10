@@ -1,0 +1,41 @@
+/* Layout */
+.app-header{
+    height: 8vh;
+    width: 100%;    
+    background: rgb(164, 177, 163);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 8px;
+}
+
+.search-input{
+    padding: 12px;
+}
+
+.search-input input{
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.sort-list{
+    display: flex;
+    align-items: center;
+}
+
+.sort-list h4{
+    font-size: 14px;
+    padding-inline-end: 8px;
+}
+
+.sort-list button{
+    background: rgb(255, 255, 255);
+    padding: 3px 8px;
+    margin-inline-end: 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 00;
+}
+
+
